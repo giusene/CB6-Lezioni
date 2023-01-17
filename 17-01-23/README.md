@@ -1,6 +1,19 @@
-# Esercitazioni 16-01-23
+# Esercitazioni 17-01-23
 
-Potete sempre utilizzare il metodo manuale per caricare le esercitazion su github, ma se volete iniziare ad utilizzare git di seguito troverete i comandi per clonare ed aggiungere le nuove esercitazioni al vostro git hub
+## Esercitazione
+
+Utilizzando sempre le seguenti Rest API: `https://api.escuelajs.co/api/v1/products` lavoriamo sempre al nostro e-commerce.
+
+- Con il metodo giusto per la manipolazione delle stringe limitiamo il titolo della card a solo 10 caratteri e la descrizione della card a soli 30.
+- Dovremo crere anche un `addEventListner` al pusante di aggiunta al carrello, in modo da aggiungere l'elemento al vostro carrello `const cart = []` facendo apparire un `alert()` che indichi l'avvenuta aggiunta al carrello dell'elemento.
+
+NB: è gradita sempre la gestione degli errori per il metodo `fetch()` ed un loader
+
+## Avanzato
+
+Fare in modo che gli elementi dentro l'array `const cart = []` vengano visualizzati nel DOM creando i rispettivi elementi e prevedere un pulsante che rimuova l'elemento selezionato dal carrello
+
+## Per usare git per pushare le esercitazioni
 
 - Prima cosa clonatevi la vostra repository delle esercitazioni copiando il link ssh dalla pagina della vostra repository su github.
 - Create una nuova cartella ed apritela con VSCode
@@ -20,23 +33,3 @@ git push
 ```
 
 NB: il comando `git clone` lo dovrete eseguire soltanto la prima volta che clonerete la vostra repository
-
-## Esercitazione
-
-Seguendo quello fatto oggi a lezione effettuate una chiamate `fetch()` alla seguente API web: `https://api.escuelajs.co/api/v1/products` e stampate in console nome e descrizione del prodotto simile a questo formato
-
-```
---------------
-Tasty Rubber Soap
-The Football Is Good For Training And Recreational Purposes
---------------
-Modern Bronze Chair
-New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016
-
-```
-
-State molto attendi all'asincronicità della `PROMISE`
-
-## Avanzato
-
-Crea delle card il più verosimili possibile ad un vero e-commerce e provate ad utilizzare un loader (puo anche essere un semplice messaggio) e la gestione degli errori

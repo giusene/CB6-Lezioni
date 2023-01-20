@@ -12,9 +12,11 @@
 Lavoriamo sempre al nostro e-commerce
 
 - Aggiungiamo i 2 ulteriori metodi visti a lezione: `PUT` e `DELETE` magari gestendoli con 2 nuovi form mi raccomando a leggere la documentazione per capire quali parametri e/o body inviare al backend per il corretto funzionamento delle chiamate.
+- Sistemate tutto il codice in diversi files in modo da rendere il tutto piu leggibile e fruibile.
 
 ## Avanzato
 
+- Potete provare a snellire ulteriormente il codice "riciclando" le funzioni ed utilizzandole per piu cose (ovviamente dove è possibile)
 - Aggiungete altre features al vostro e-commerce come ad esempio i filtri per categorie e gestite meglio gli elementi aggiunti al carrello.
 
 ## Per usare git per pushare le esercitazioni
